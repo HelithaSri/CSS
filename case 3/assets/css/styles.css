@@ -4,3 +4,19 @@
  * @create date : 2021-12-17  20:54
  * @modify date : 2021-12-17  20:54
  */
+
+body > section {
+  height: 100vh;
+}
+
+body > section:nth-child(1) {
+  background-color: aqua;
+}
+
+body > section:nth-child(2) {
+  background-color: rgb(0, 26, 255);
+}
+
+body > section:nth-child(3) {
+  background-color: rgb(200, 255, 0);
+}
