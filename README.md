@@ -5,3 +5,5 @@
     ![case2](screenshots/case%202.jpg)
 * case 3
     ![case2](screenshots/case%203.jpg)
+* case 3
+    ![case2](screenshots/case%204.jpg)
