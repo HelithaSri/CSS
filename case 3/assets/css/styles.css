@@ -23,7 +23,6 @@ body > section:nth-child(3) > div{
 }
 
 section > div {
-  background-color: brown;
   width: 400px;
   height: 400px;
   border-radius: 1000px;
