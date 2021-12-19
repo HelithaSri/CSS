@@ -7,20 +7,24 @@
     <title>Home | CSS Assignment</title>
     <style>
       body > section {
-        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
       }
+
       body > h1 {
         text-align: center;
-        font-size: 32px;
+        font-size: 40px;
         font-weight: bold;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
       }
+
       .container {
         position: relative;
-        width: 600px;
+        width: 400px;
         display: flex;
-        border: 1px solid rgb(0, 0, 0);
+        border: 2px dashed rgb(0, 0, 0);
       }
 
       .container:hover img {
@@ -34,7 +38,7 @@
       .container > img {
         opacity: 1;
         display: block;
-        width: 600px;
+        width: 400px;
         height: auto;
         transition: 0.5s ease;
         backface-visibility: hidden;
@@ -52,7 +56,6 @@
       }
 
       .container > div > div {
-        /* background-color: #4caf50; */
         color: rgb(0, 0, 0);
         font-size: 16px;
         padding: 10px;
@@ -62,20 +65,23 @@
           Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
         font-weight: bold;
       }
+
       table {
         margin: auto;
         width: 5px;
       }
     </style>
   </head>
+
   <body>
     <h1>CSS ASSIGNMENTS</h1>
-    <hr />
-    <section>
+    <hr/>
+
+    <!-- do with table (Old) -->
+    <!-- <section>
       <table>
         <tr>
           <td>
-            <!-- 1 -->
             <a href="case 1/index.html" target="_self">
               <div class="container">
                 <img src="screenshots/case 1.jpg" alt="case 1 index file" />
@@ -119,6 +125,46 @@
           </td>
         </tr>
       </table>
+    </section> -->
+
+    <!-- do with flex -->
+    <section>
+      <a href="case 1/index.html" target="_self">
+        <div class="container">
+          <img src="screenshots/case 1.jpg" alt="case 1 index file" />
+          <div>
+            <div>CSS Assignment 1</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="case 2/index.html" target="_self">
+        <div class="container">
+          <img src="screenshots/case 2.jpg" alt="case 2 index file" />
+          <div>
+            <div>CSS Assignment 2</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="case 3/index.html" target="_self">
+        <div class="container">
+          <img src="screenshots/case 3.jpg" alt="case 3 index file" />
+          <div>
+            <div>CSS Assignment 3</div>
+          </div>
+        </div>
+      </a>
+
+      <a href="case 4/index.html" target="_self">
+        <div class="container">
+          <img src="screenshots/case 4.jpg" alt="case 4 index file" />
+          <div>
+            <div>CSS Assignment </div>
+          </div>
+        </div>
+      </a>
     </section>
+    <br />
   </body>
 </html>
