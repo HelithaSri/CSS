@@ -33,8 +33,6 @@ section > div {
   right: 0;
   margin: auto;
   text-align: center;
- 
-
 }
 
 section > div > p {
@@ -48,7 +46,6 @@ section > div > p {
   font-weight: 700;
   font-size: 40px;
   color: white;
-  overflow-wrap: break-word;
 }
 
 section > div > p#long{
