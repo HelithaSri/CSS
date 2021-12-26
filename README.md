@@ -7,3 +7,5 @@
     ![case2](screenshots/case%203.jpg)
 * case 4
     ![case2](screenshots/case%204.jpg)
+* case 5
+    ![case2](screenshots\case_5.gif)
