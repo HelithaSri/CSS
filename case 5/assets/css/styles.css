@@ -2,7 +2,7 @@
  * @author : HelithaSri
  * @email : helitha.pravin@gmail.com
  * @create date : 2021-12-14  00:10
- * @modify date : 2021-12-14  02:13
+ * @modify date : 2021-12-26  13:33
  */
 
 body > header {
@@ -90,6 +90,7 @@ main > section > p {
   margin-left: 2%;
   margin-right: 2%;
   font-family: "Arimo", sans-serif;
+  font-size: 20px;
 }
 
 body > footer {
@@ -111,7 +112,7 @@ footer > p {
 
 /* Mobile Responsive Start */
 
-@media all and (max-width:425px){
+@media all and (max-width:768px){
   
   body > header {
     height: 80px;
@@ -153,15 +154,16 @@ footer > p {
 
   main > section > div {
     flex-direction: column;
-    
+    margin-top: 10px;
   }
 
   main > section > div > img {
     width: 100vw;
+    
   }
 
   main > section > p{
-    font-size: 14px;
+    font-size: 12px;
   }
 
   footer > p{
@@ -171,3 +173,63 @@ footer > p {
 }
 
 /* Mobile Responsive End */
+
+/* Tablet Responsive Start */
+
+@media all and (min-width:768px) and (max-width:1020px){
+  body > header {
+    height: 80px;
+  }
+  
+  header > img{
+    left: 0;
+    right: 0;
+    top: 10px;
+    bottom: 40px;
+    width: 200px;
+  }
+  
+  header > nav {
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    
+  }
+  
+  header > nav > ul{
+    padding-left: 0px;
+  }
+  
+  header > nav > ul > li{
+    margin-right: 15px;
+  }
+  
+  main > nav{
+    display: none;
+  }
+  
+  main > section {
+    margin-left: auto;
+  }
+
+  main > section > div {
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  main > section > div > img {
+    width: 100vw;
+    
+  }
+
+  main > section > p{
+    font-size: 15px;
+  }
+
+  footer > p{
+    line-height: 30px;
+  }
+}
