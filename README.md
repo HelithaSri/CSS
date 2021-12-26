@@ -8,4 +8,4 @@
 * case 4
     ![case2](screenshots/case%204.jpg)
 * case 5
-    ![case2](screenshots\case_5.gif)
+    ![case2](screenshots/case%205.jpg)
