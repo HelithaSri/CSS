@@ -36,10 +36,10 @@ section > div > div{
     justify-content: center;
 
     animation-name: scroll;
-    animation-duration: 10s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    
+    animation-delay: 3s;
 }
 
 section > div > div > div{
@@ -54,6 +54,7 @@ section > div > div > div{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+    
 }
 
 #div2{
