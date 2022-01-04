@@ -13,3 +13,5 @@
     ![case2](screenshots/menu.gif)
 * case 7
     ![case2](screenshots/case_7.gif)
+* case 8
+    ![case2](screenshots/case%208.gif)
