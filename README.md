@@ -17,3 +17,5 @@
     ![case8](screenshots/case%208.gif)
 * case 9
     ![case9](screenshots/case%209.gif)
+* case 10
+    ![case10](screenshots/case%2010.gif)
