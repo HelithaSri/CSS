@@ -93,7 +93,7 @@ body{
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-duration: 17s;
-    animation-delay: 1.3s;
+    animation-delay: 1s;
 }
 
 #wheel2{
@@ -111,7 +111,7 @@ body{
     animation-iteration-count: infinite;
     animation-direction: normal;
     animation-duration: 17s;
-    animation-delay: 1.3s;
+    animation-delay: 1s;
 }
 
 @keyframes wheel{
