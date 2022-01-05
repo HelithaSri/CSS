@@ -1,0 +1,61 @@
+body{
+    overflow: hidden;
+}
+#sky-div{
+    background-image: url(../img/sky.jpg);
+    height: 80vh;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    
+}
+
+#cont{
+    position:absolute;
+    width: 10000px;
+    height: 450px;
+    /* border: 5px solid red; */
+    bottom: 8px;
+    animation-name: right_to_left;
+    animation-iteration-count: infinite;
+    animation-direction: initial;
+    animation-duration: 20s;
+       
+}
+
+
+#city-div{
+    position: relative;
+    background-image: url(../img/city.png);
+    height: 50vh;
+    /* width: 5000px; */
+    /* background-position: 100%; */
+    background-repeat: repeat-x;
+    background-size: 1600px;
+    /* top: 40vh; */
+   
+}
+
+
+#road{
+    position: relative;
+    background-image: url(../img/road.jpg);
+    /* height: 378px; */
+    height: 292px;
+    /* height: 32vh; */
+    background-repeat: repeat-x;
+    background-size: cover;
+    top: 270px;
+    
+
+}
+
+
+@keyframes right_to_left{
+    from{
+        margin-left: 0px;
+        
+    }
+    to{
+        margin-left: -8000px;
+    }
+}
