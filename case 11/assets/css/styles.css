@@ -17,7 +17,7 @@ body{
     bottom: 8px;
     animation-name: right_to_left;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
     animation-duration: 18s;
        
 }
@@ -91,8 +91,9 @@ body{
 
     animation-name: wheel;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
     animation-duration: 17s;
+    animation-delay: 1.3s;
 }
 
 #wheel2{
@@ -108,8 +109,9 @@ body{
 
     animation-name: wheel;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: normal;
     animation-duration: 17s;
+    animation-delay: 1.3s;
 }
 
 @keyframes wheel{
@@ -119,6 +121,7 @@ body{
     to{
         transform: rotate(360deg);
     }
+
     /* 0%{
         transform: rotate(0deg);
     }
