@@ -3,9 +3,10 @@ body{
 }
 #sky-div{
     background-image: url(../img/sky.jpg);
-    height: 80vh;
-    background-position: 50%;
+    height: 100vh;
+    /* background-position: 50%; */
     background-repeat: no-repeat;
+    
     
 }
 
@@ -43,7 +44,8 @@ body{
     height: 292px;
     /* height: 32vh; */
     background-repeat: repeat-x;
-    background-size: cover;
+    background-size: contain;
+    /* background-position: 10%; */
     top: 270px;
     
 
