@@ -6,8 +6,7 @@ body{
     height: 100vh;
     /* background-position: 50%; */
     background-repeat: no-repeat;
-    
-    
+
 }
 
 #cont{
@@ -18,8 +17,8 @@ body{
     bottom: 8px;
     animation-name: right_to_left;
     animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-duration: 18s;
        
 }
 
@@ -61,6 +60,7 @@ body{
     }
 }
 
+
 #car{
     position: absolute;
     background-image: url(../img/car.png);
@@ -69,7 +69,7 @@ body{
     /* background-color: red; */
     background-repeat: no-repeat;
     background-size: 100%;
-    top: 550px;
+    top: 680px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -92,7 +92,7 @@ body{
     animation-name: wheel;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-duration: 5s;
+    animation-duration: 17s;
 }
 
 #wheel2{
@@ -109,17 +109,17 @@ body{
     animation-name: wheel;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    animation-duration: 5s;
+    animation-duration: 17s;
 }
 
 @keyframes wheel{
-    /* from{
-        transform: rotate(0deg);
+    from{
+        transform: rotate(-360deg);
     }
     to{
         transform: rotate(360deg);
-    } */
-    0%{
+    }
+    /* 0%{
         transform: rotate(0deg);
     }
     25%{
@@ -133,5 +133,5 @@ body{
     }
     100%{
         transform: rotate(360deg);
-    }
+    } */
 }
